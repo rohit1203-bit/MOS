@@ -1,0 +1,96 @@
+---------Inappropriate Termination of Program cause Error---------
+---------INVALID PAGE FAULT---------
+IR:: IR[0] P  IR[1] D  IR[2] 8  IR[3] 0  
+IC:: IC[0] 0  IC[1] 5  
+job_id :: 0001
+TTC :: 0008
+LLC :: 0000
+TTL :: 0017
+TLL :: 0004
+INTERRUPTS :: SI = 0, PI = 3, TI = 0
+
+
+---------Inappropriate Termination of Program cause Error---------
+---------OUT OF DATA---------
+IR:: IR[0] G  IR[1] D  IR[2] 1  IR[3] 0  
+IC:: IC[0] 0  IC[1] 1  
+job_id :: 0002
+TTC :: 0002
+LLC :: 0000
+TTL :: 0004
+TLL :: 0001
+INTERRUPTS :: SI = 1, PI = 0, TI = 0
+
+
+@D20PD20LR20SR30SR31PD30SR40SR41SR42PD40
+@D20@D20********************************
+@D20@D20@D20****************************
+@D20@D20********************************
+@D20************************************
+---------Inappropriate Termination of Program cause Error---------
+---------TIME LIMIT EXCEEDED---------
+IR:: IR[0] P  IR[1] D  IR[2] 6  IR[3] 0  
+IC:: IC[0] 1  IC[1] 5  
+job_id :: 0003
+TTC :: 0020
+LLC :: 0004
+TTL :: 0020
+TLL :: 0005
+INTERRUPTS :: SI = 2, PI = 0, TI = 2
+
+
+VIT*************************************
+IS**************************************
+---------Inappropriate Termination of Program cause Error---------
+---------LINE LIMIT EXCEEDED---------
+IR:: IR[0] P  IR[1] D  IR[2] 4  IR[3] 0  
+IC:: IC[0] 0  IC[1] 6  
+job_id :: 0004
+TTC :: 0009
+LLC :: 0002
+TTL :: 0020
+TLL :: 0002
+INTERRUPTS :: SI = 2, PI = 0, TI = 0
+
+
+GROUP***********************************
+TY-39***********************************
+FROM CSB********************************
+---------Appropriate Termination of Program---------
+---------NO ERROR---------
+IR:: IR[0] H  IR[1] *  IR[2] *  IR[3] *  
+IC:: IC[0] 0  IC[1] 7  
+job_id :: 0005
+TTC :: 0010
+LLC :: 0003
+TTL :: 0010
+TLL :: 0003
+INTERRUPTS :: SI = 3, PI = 0, TI = 2
+
+
+VIT IS GOOD*****************************
+---------Inappropriate Termination of Program cause Error---------
+---------OPERATION CODE ERROR---------
+IR:: IR[0] g  IR[1] d  IR[2] 3  IR[3] 0  
+IC:: IC[0] 0  IC[1] 3  
+job_id :: 0006
+TTC :: 0003
+LLC :: 0001
+TTL :: 0017
+TLL :: 0004
+INTERRUPTS :: SI = 0, PI = 1, TI = 0
+
+
+3 LITTLE GOATS WENT TO OS CLASS.********
+---------Inappropriate Termination of Program cause Error---------
+---------OPERAND ERROR---------
+IR:: IR[0] G  IR[1] D  IR[2] r  IR[3] o  
+IC:: IC[0] 0  IC[1] 3  
+job_id :: 0007
+TTC :: 0003
+LLC :: 0001
+TTL :: 0024
+TLL :: 0007
+INTERRUPTS :: SI = 0, PI = 2, TI = 0
+
+
